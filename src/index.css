@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Sevillana&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-animation {
+  background: linear-gradient(to right, #bbd1ea, #dae3e5);
+  background-size: 200% 200%;
+  animation: gradientAnimation 2s ease-in-out infinite;
+}
+
+.logo-text {
+  font-family: "Sevillana", cursive !important;
+}

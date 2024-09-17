@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./Montserrat-VariableFont_wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('./Inter-VariableFontslnt,wght.ttf') format('truetype');  
+  }
+
+  @font-face {
+    font-family: 'Avory';
+    src: url(https://fonts.adobe.com/fonts/avory-pe-variable) format('truetype');
+  }
