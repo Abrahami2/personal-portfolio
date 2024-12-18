@@ -28,10 +28,14 @@ import profile from "../assets/images/profile.png";
           <p>
   Hi 👋 My name is Abraham Hamitou, and I'm from Boca Raton, Florida, USA. 
   I am currently pursuing a Master of Science in Information Technology Management 
-  at <span className="text-textBlue">Florida Atlantic University</span>. 
+  at <a href="https://www.fau.edu/engineering/eecs/graduate/ms/it-management/ait-track/" 
+  className="text-textBlue" target="_blank" rel="noopener noreferrer">
+    Florida Atlantic University
+  </a>. 
   My passion for programming began in middle school when I ventured into 
-  building my own video games, sparking a lifelong interest in technology and software development.
+  building my own video games using C# and Unity, sparking a lifelong interest in technology and software development.
 </p>
+
   
             <p> Here are a few technologies I have worked with in the past:</p>
             <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-6">
