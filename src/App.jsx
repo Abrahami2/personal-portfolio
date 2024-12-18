@@ -10,14 +10,14 @@ import {
   Contact,
 } from "./components";
 import { motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react"; // Import Vercel Analytics
 
 function App() {
   return (
     <>
       <div className="w-full h-screen overflow-x-hidden overflow-y-scroll font-bodyFont bg-bodyColor text-textLight scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
-        <div className="sticky top-0 z-50 ">
-          {" "}
-          <Navbar />{" "}
+        <div className="sticky top-0 z-50">
+          <Navbar />
         </div>
 
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
@@ -47,6 +47,9 @@ function App() {
           </motion.div>
         </div>
       </div>
+
+      {/* Add Vercel Analytics here */}
+      <Analytics />
     </>
   );
 }
