@@ -25,19 +25,13 @@ import profile from "../assets/images/profile.png";
         <SectionTitle title="About Me" titleNumber="01" />
         <div className="flex flex-col gap-16 lg:flex-row">
           <div className="flex flex-col w-full gap-4 text-base font-medium lgl:w-2/3 text-textDark">
-            <p>
-              Hi 👋 My name is Abraham Hamitou from Boca Raton, Florida, United
-              States and I am studying
-              {"'"}Master of Science in Information Technology Management student
-              at the
-              <span className="text-textBlue">
-                {" "}
-                Florida Atlantic University Florida.
-              </span>{" "}
-              My interest in programming started back in middle school when I
-              decided I wanted to try building my own video games using C# and
-              Unity.
-            </p>
+          <p>
+  Hi 👋 My name is Abraham Hamitou, and I'm from Boca Raton, Florida, USA. 
+  I am currently pursuing a Master of Science in Information Technology Management 
+  at <span className="text-textBlue">Florida Atlantic University</span>. 
+  My passion for programming began in middle school when I ventured into 
+  building my own video games, sparking a lifelong interest in technology and software development.
+</p>
   
             <p> Here are a few technologies I have worked with in the past:</p>
             <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-6">
