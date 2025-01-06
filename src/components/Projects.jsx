@@ -1,11 +1,15 @@
 import SectionTitle from "./SectionTitle";
-import Project1 from "../assets/images/placeholder.png";
+import HospitalManagement from "../assets/images/Hospital.png";
+import Impulsive from "../assets/images/impulsive.png";
 
 import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <section id="projects" className="max-w-[1440px] mx-auto lgl:px-20 py-24">
+    <section
+      id="projects"
+      className="max-w-[1440px] mx-auto lgl:px-20 py-24 px-4"
+    >
       <SectionTitle title="Some of my projects" titleNumber="03" />
 
       <div className="flex flex-col items-center justify-between w-full mt-10 gap-28">
@@ -18,8 +22,8 @@ const Projects = () => {
             >
               <div>
                 <img
-                  className="object-contain w-full h-full duration-300 hover:-translate-y-3"
-                  src={Project1}
+                  className="object-top w-full h-full max-h-[350px] duration-300 hover:-translate-y-3"
+                  src={HospitalManagement}
                   alt="Project1"
                 />
               </div>
@@ -29,22 +33,26 @@ const Projects = () => {
                 <p className="text-sm tracking-wide font-titlefont text-textBlue">
                   Florida Atlantic University
                 </p>
-                <h3 className="text-2xl font-bold">AI-enabled Center</h3>
+                <h3 className="text-2xl font-bold">
+                  Hospital Management System
+                </h3>
               </div>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Co-Directed the deployment of a cutting-edge lab at the FPL
-                Center for Intelligent Energy Technologies (InETech) at U,
-                involving the integration of advanced systems and technologies.
+                A comprehensive system designed to manage hospital operations,
+                including patient records, appointments, and billing.
                 <span className="block pt-2">
-                  Configured and integrated 18 high-resolution, screens with
-                  real-time data feeds, utilizing high-performance computing
-                  clusters for data processing and visualization.
+                  This project aimed to improve efficiency and accessibility for
+                  hospital staff and patients.
                 </span>
               </p>
 
               <ul className="flex justify-between gap-2 text-xs tracking-wide md:text-sm font-titleFont md:gap-5 text-textDark">
                 <li className="cursor-default hover:text-textBlue"> Java </li>
-                <li className="cursor-default hover:text-textBlue"> PHP </li>
+                <li className="cursor-default hover:text-textBlue">
+                  {" "}
+                  Javascript{" "}
+                </li>
+                <li className="cursor-default hover:text-textBlue"> Python </li>
               </ul>
             </div>
           </div>
@@ -59,8 +67,8 @@ const Projects = () => {
             >
               <div>
                 <img
-                  className="object-contain w-full h-full duration-300 hover:-translate-y-3"
-                  src={Project1}
+                  className="object-cover w-full h-full max-h-[350px] duration-300 hover:-translate-y-3"
+                  src={Impulsive}
                   alt="Project1"
                 />
               </div>

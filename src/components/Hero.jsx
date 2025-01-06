@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="max-w-[1140px] mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
+      className="max-w-[1140px] mx-auto px-4 py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
     >
       <motion.h3
         initial={{ y: 10, opacity: 0 }}
@@ -63,7 +63,7 @@ const Hero = () => {
         </a>
       </motion.p>
       <Link
-        to="https://www.github.com"
+        to="https://github.com/Abrahami2"
         target="_blank"
         className="text-sm w-52 h-14 font-titleFont"
       >

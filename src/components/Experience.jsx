@@ -33,7 +33,7 @@ const Experience = () => {
       className="max-w-[868px] mx-auto py-10 lgl:py-24 px-4"
     >
       <h2 className="flex items-center text-2xl font-semibold font-titleFont">
-        <span className="mr-2 text-base md:text-lg text-textBlue">02. </span>{" "}
+        <span className="mr-2 text-base md:text-lg text-textBlue">03. </span>{" "}
         <span>
           My{" "}
           <span>

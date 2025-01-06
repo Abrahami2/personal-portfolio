@@ -16,19 +16,19 @@ const Archive = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 gap-6 mt-10 md:grid-cols-2 xl:grid-cols-3 lgl:px-10">
-            <ArchiveCard
-          title="Hospital Management System"
-          description="A comprehensive system designed to manage hospital operations, including patient records, appointments, and billing. This project aimed to improve efficiency and accessibility for hospital staff and patients."
+        <ArchiveCard
+          title="AI-enabled Center"
+          description="Co-Directed the deployment of a cutting-edge lab at the FPL Center for Intelligent Energy Technologies (InETech) at U, involving the integration of advanced systems and technologies. Configured and integrated 18 high-resolution, screens with real-time data feeds, utilizing high-performance computing clusters for data processing and visualization."
+          listItem={["Java", "PHP"]}
+          link="/"
+        />
+        <ArchiveCard
+          title="Anime Hub"
+          description="An application for anime enthusiasts to track, rate, and discuss their favorite anime shows. Includes features for user profiles, watchlists, and community interactions."
           listItem={["Java", "JavaScript", "Python"]}
           link="/"
         />
-           <ArchiveCard
-        title="Anime Hub"
-        description="An application for anime enthusiasts to track, rate, and discuss their favorite anime shows. Includes features for user profiles, watchlists, and community interactions."
-        listItem={["Java", "JavaScript", "Python"]}
-        link="/"
-        />
-           <ArchiveCard
+        <ArchiveCard
           title="Project 3"
           description="Project description to be updated once uploaded. Previously worked on a multi-screen lab setup involving 8 computers and 20 monitors."
           listItem={["Java", "JavaScript", "Python"]}

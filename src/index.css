@@ -25,3 +25,16 @@
 .logo-text {
   font-family: "Sevillana", cursive !important;
 }
+
+.skills-container {
+  width: max-content;
+  display: flex;
+  gap: 40px;
+  animation: 20s scroll linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 20px));
+  }
+}

@@ -5,7 +5,7 @@ import { MdOutlineClose } from "react-icons/md";
 import { TbBrandGithub } from "react-icons/tb";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { Link } from "react-router-dom";
-import resume from "../assets/Abraham_Hamitou.pdf";
+import resume from "../assets/Abraham Hamitou Revised.pdf";
 
 const Navbar = () => {
   const [home, setHome] = useState(false);
