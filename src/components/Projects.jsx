@@ -31,7 +31,7 @@ const Projects = () => {
             <div className="z-10 flex flex-col items-end w-full gap-6 text-right xl:w-1/2 lgl:justify-between xl:-ml-16">
               <div className="flex flex-col gap-2">
                 <p className="text-sm tracking-wide font-titlefont text-textBlue">
-                  Florida Atlantic University
+                  Personal Project
                 </p>
                 <h3 className="text-2xl font-bold">
                   Hospital Management System
