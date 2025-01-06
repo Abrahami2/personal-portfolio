@@ -18,7 +18,7 @@ const About = () => {
         <div className="flex flex-col w-full gap-4 text-base font-medium lgl:w-2/3 text-textDark">
           <p>
             Hi 👋 My name is Abraham Hamitou, and I{"'"}m from Boca Raton,
-            Florida, USA. I am currently pursuing a Master of Science in
+            Florida, USA. I graduated with my Bachelors in CS in December 2024 and I'm currently pursuing a Master of Science in
             Information Technology Management, primarily focused on Computer
             Science, at{" "}
             <a
