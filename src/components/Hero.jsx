@@ -53,7 +53,7 @@ const Hero = () => {
       >
         I am an aspiring Software Engineer with a strong background in visual
         design and experience in programming field. My career interests include
-        full-stack development, machine learning, and artificial intelligence.{" "}
+        full-stack development, Back-end development, and artificial intelligence.{" "}
         <br />
         <a to="about" onClick={() => scrollToSection("about")}>
           <span className="relative inline-flex overflow-x-hidden cursor-pointer text-textBlue h-7 group">
