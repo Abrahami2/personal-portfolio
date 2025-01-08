@@ -30,7 +30,7 @@
   width: max-content;
   display: flex;
   gap: 40px;
-  animation: 20s scroll linear infinite;
+  animation: 30s scroll linear infinite;
 }
 
 @keyframes scroll {

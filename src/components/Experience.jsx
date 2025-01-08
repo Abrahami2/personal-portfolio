@@ -38,15 +38,7 @@ const Experience = () => {
           My{" "}
           <span>
             <TypeAnimation
-              sequence={[
-                "Experience",
-                2000,
-                "Activities",
-                2000,
-                () => {
-                  console.log("Sequence completed");
-                },
-              ]}
+              sequence={["Experience", 2000, "Activities", 2000]}
               wrapper="span"
               cursor={true}
               repeat={Infinity}

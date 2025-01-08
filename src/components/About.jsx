@@ -8,7 +8,7 @@ const About = () => {
       className="max-w-[1024px] mx-auto py-10 lgl:py-32 flex flex-col gap-8 px-4"
     >
       {/* Development Notice */}
-      <div className="py-3 font-semibold text-center bg-yellow-200 rounded-md text-textDark">
+      <div className="py-3 font-semibold text-center bg-[#112240] rounded-md text-textDark">
         This site is currently under development. Stay tuned for updates!
       </div>
 
@@ -18,7 +18,7 @@ const About = () => {
         <div className="flex flex-col w-full gap-4 text-base font-medium lgl:w-2/3 text-textDark">
           <p>
             Hi 👋 My name is Abraham Hamitou, and I{"'"}m from Boca Raton,
-            Florida, USA. I graduated with my Bachelors in CS in December 2024 and I'm currently pursuing a Master of Science in
+            Florida, USA. I graduated with my Bachelors in CS on Devember 2024 and I'm currently pursuing a Master of Science in
             Information Technology Management, primarily focused on Computer
             Science, at{" "}
             <a
