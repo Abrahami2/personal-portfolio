@@ -25,28 +25,31 @@ const AWSComponent = () => {
           <span className="mt-1 text-textBlue">
             <TbCircleArrowRight />
           </span>
-          Optimized cloud resources through Live Migration techniques (subject
-          to NDA, no further details available).
+          Optimized resource utilization through Live Migration capabilities.
         </li>
         <li className="flex gap-2 text-base text-textDark">
           <span className="mt-1 text-textBlue">
             <TbCircleArrowRight />
           </span>
-          Developed scalable AWS solutions utilizing EC2, Lambda, S3, and RDS.
+          Designed and deployed scalable solutions with EC2, S3, and backend APIs.
         </li>
         <li className="flex gap-2 text-base text-textDark">
           <span className="mt-1 text-textBlue">
             <TbCircleArrowRight />
           </span>
-          Collaborated with my team to engineer efficient Java microservices for
-          optimal resource allocation.
+          Collaborated on KPI-driven cloud optimization projects.
         </li>
         <li className="flex gap-2 text-base text-textDark">
           <span className="mt-1 text-textBlue">
             <TbCircleArrowRight />
           </span>
-          Implemented unit tests with Mockito to ensure the reliability and
-          correctness of Java microservices.
+          Engineered Java microservices for efficient cloud resource management.
+        </li>
+        <li className="flex gap-2 text-base text-textDark">
+          <span className="mt-1 text-textBlue">
+            <TbCircleArrowRight />
+          </span>
+          Streamlined workflows by integrating automated testing with Mockito and JUnit.
         </li>
       </ul>
     </motion.div>

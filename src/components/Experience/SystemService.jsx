@@ -25,8 +25,8 @@ const SystemService = () => {
           <span className="mt-1 text-textBlue">
             <TbCircleArrowRight />
           </span>
-          Managed project priorities and troubleshooting for IT systems,
-          including MS Office
+          Managed project priorities and troubleshooting for IT systems.
+      
         </li>
         <li className="flex gap-2 text-base text-textDark">
           <span className="mt-1 text-textBlue">
@@ -39,8 +39,8 @@ const SystemService = () => {
           <span className="mt-1 text-textBlue">
             <TbCircleArrowRight />
           </span>
-          Developed tech solutions for diverse users, achieving a 95% resolution
-          rate within 24 hours.
+          Managed and maintained virtualized environments using VMware vSphere, 
+          including provisioning and monitoring virtual machines.
         </li>
         <li className="flex gap-2 text-base text-textDark">
           <span className="mt-1 text-textBlue">
@@ -53,7 +53,8 @@ const SystemService = () => {
           <span className="mt-1 text-textBlue">
             <TbCircleArrowRight />
           </span>
-          Created and edited websites using WordPress for University and Staff.
+          Configured and deployed device compliance policies and software updates via Microsoft Intune, 
+          ensuring seamless integration with Active Directory.
         </li>
       </ul>
     </motion.div>
