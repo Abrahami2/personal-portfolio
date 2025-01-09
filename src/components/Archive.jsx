@@ -19,37 +19,37 @@ const Archive = () => {
         <ArchiveCard
           title="AI-enabled Center"
           description="Co-Directed the deployment of a cutting-edge lab at the FPL Center for Intelligent Energy Technologies (InETech) at U, involving the integration of advanced systems and technologies. Configured and integrated 18 high-resolution, screens with real-time data feeds, utilizing high-performance computing clusters for data processing and visualization."
-          listItem={["Java", "PHP"]}
+          listItem={["Jira"]}
           link="/"
         />
         <ArchiveCard
           title="Anime Hub"
           description="An application for anime enthusiasts to track, rate, and discuss their favorite anime shows. Includes features for user profiles, watchlists, and community interactions."
-          listItem={["Java", "JavaScript", "Python"]}
+          listItem={["Java", "JavaScript", "SupaBase"]}
           link="/"
         />
         <ArchiveCard
-          title="Project 3"
-          description="Project description to be updated once uploaded. Previously worked on a multi-screen lab setup involving 8 computers and 20 monitors."
-          listItem={["Java", "JavaScript", "Python"]}
+          title="Amazon Order Processing and Reporting System"
+          description="Implemented a scalable MongoDB solution to process 30K+ monthly orders and integrated Amazon APIs for automated tracking. Connected MongoDB to Power BI for real-time insights and streamlined data synchronization with automated jobs."
+          listItem={["MongoDB", "Power BI", "APIs"]}
           link="/"
         />
         <ArchiveCard
-          title="Project 4"
-          description="Project description to be updated once uploaded. Previous work includes integrating Google Authenticator into JavaScript code using Firebase and Azure."
-          listItem={["Java", "Javascript", "Python"]}
+          title="Alzheimer's Disease MRI Classification"
+          description="Developed machine learning models (ResNet50, custom CNN, and a student-designed model) to classify Alzheimer's disease stages using MRI images. Conducted preprocessing, EDA, and model evaluation using accuracy, precision, recall, and F1-score to identify the most effective solution."
+          listItem={["Python (TensorFlow, Keras, Scikit-learn)"]}
           link="/"
         />
         <ArchiveCard
-          title="Project 5"
-          description="Project description to be updated once uploaded. Worked on various web projects using WordPress, including creating and editing websites for staff."
-          listItem={["Java", "Javascript", "Python"]}
+          title="Pythagorean Triples Finder"
+          description="Engineered a Python program to compute Pythagorean triples efficiently for a given range. Implemented algorithmic logic to identify and validate triples dynamically."
+          listItem={["Python"]}
           link="/"
         />
         <ArchiveCard
-          title="Project 6"
-          description="Project description to be updated once uploaded. Worked on various web projects using WordPress, including creating and editing websites for staff."
-          listItem={["Java", "Javascript", "Python"]}
+          title="RGB Color Picker Application"
+          description="Designed and implemented an RGB color picker application in Java. Utilized sliders to control red, green, and blue components, dynamically updating the color of a displayed disk. Followed the MVC architecture and employed the Observer Pattern to synchronize model updates with the view."
+          listItem={["Java", "Swing"]}
           link="/"
         />
 
@@ -61,9 +61,9 @@ const Archive = () => {
               transition={{ delay: 0.1 }}
             >
               <ArchiveCard
-                title="Project 7"
-                description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi excepturi maxime ut ullam nulla sequi delectus qui"
-                listItem={["Java", "Javascript", "Python"]}
+                title="Live Migration Optimization"
+                description="Developed a Java API to enhance live migration, optimizing resource utilization and enabling KPI reporting. Integrated AWS S3 for scalable storage and automated testing with Mockito and JUnit, reducing manual testing by 20%"
+                listItem={["Java",]}
                 link="/"
               />
             </motion.div>
