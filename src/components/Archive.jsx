@@ -17,9 +17,9 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 gap-6 mt-10 md:grid-cols-2 xl:grid-cols-3 lgl:px-10">
         <ArchiveCard
-          title="AI-enabled Center"
-          description="Co-Directed the deployment of a cutting-edge lab at the FPL Center for Intelligent Energy Technologies (InETech) at U, involving the integration of advanced systems and technologies. Configured and integrated 18 high-resolution, screens with real-time data feeds, utilizing high-performance computing clusters for data processing and visualization."
-          listItem={["Jira"]}
+          title="Live Migration Optimization"
+          description="Developed a Java API to enhance live migration, optimizing resource utilization and enabling KPI reporting. Integrated AWS S3 for scalable storage and automated testing with Mockito and JUnit, reducing manual testing by 20%"
+          listItem={["Java"]}
           link="/"
         />
         <ArchiveCard
@@ -61,9 +61,9 @@ const Archive = () => {
               transition={{ delay: 0.1 }}
             >
               <ArchiveCard
-                title="Live Migration Optimization"
-                description="Developed a Java API to enhance live migration, optimizing resource utilization and enabling KPI reporting. Integrated AWS S3 for scalable storage and automated testing with Mockito and JUnit, reducing manual testing by 20%"
-                listItem={["Java",]}
+                title="AI enable center"
+                description="Co-Directed the deployment of a cutting-edge lab at the FPL Center for Intelligent Energy Technologies (InETech) at U, involving the integration of advanced systems and technologies. Configured and integrated 18 high-resolution, screens with real-time data feeds, utilizing high-performance computing clusters for data processing and visualization."
+                listItem={["Jira",]}
                 link="/"
               />
             </motion.div>
