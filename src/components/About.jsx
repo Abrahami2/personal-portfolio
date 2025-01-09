@@ -17,8 +17,7 @@ const About = () => {
       <div className="flex flex-col items-center gap-16 lg:flex-row">
         <div className="flex flex-col w-full gap-4 text-base font-medium lgl:w-2/3 text-textDark">
           <p>
-            Hi 👋 My name is Abraham Hamitou, and I{"'"}m from Boca Raton,
-            Florida, USA. I graduated with my Bachelors in CS on Devember 2024 and I'm currently pursuing a Master of Science in
+            Hi 👋 My name is Abraham (Abe), and I{"'"}m from Boca Raton,FL. I graduated with my Bachelors in CS on Devember 2024 and I'm currently pursuing a Master of Science in
             Information Technology Management, primarily focused on Computer
             Science, at{" "}
             <a
@@ -29,9 +28,10 @@ const About = () => {
             >
               Florida Atlantic University
             </a>
-            . My journey into programming began in middle school when I explored
-            building simple projects, which fueled my curiosity and interest in
-            technology and software development.
+            . My journey into programming began in middle school when I took a robotics class, 
+            sparking my curiosity for technology and software development. 
+            Today, I continue to nurture this passion by experimenting with my home server, 
+            where I explore networking, automation, and system management.
           </p>
 
           {/* <p> Here are a few technologies I have worked with in the past:</p>
