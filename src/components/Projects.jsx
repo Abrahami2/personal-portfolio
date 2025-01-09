@@ -52,7 +52,7 @@ const Projects = () => {
                   {" "}
                   Javascript{" "}
                 </li>
-                <li className="cursor-default hover:text-textBlue"> Python </li>
+                <li className="cursor-default hover:text-textBlue"> HTML/CSS </li>
               </ul>
             </div>
           </div>
