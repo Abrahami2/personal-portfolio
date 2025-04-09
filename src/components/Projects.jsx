@@ -50,7 +50,7 @@ const Projects = () => {
                 <li className="cursor-default hover:text-textBlue"> Java </li>
                 <li className="cursor-default hover:text-textBlue">
                   {" "}
-                  Javascript{" "}
+                  MySQL{" "}
                 </li>
                 <li className="cursor-default hover:text-textBlue"> HTML/CSS </li>
               </ul>
